@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Pricing Component</title>
+  </head>
+  <body>
+    <h1>Our Pricing</h1>
+    <div class="container">
+        <h2 class="annual">Annually</h2>
+        <label>
+            <input type="checkbox" onclick="toggleBttn()" id="toggle-btn"/>
+        </label>
+        <h2 class="month">Monthly</h2>
+    </div>
+
+    <section class="price-list" id="month">
+        <div class="annual-basic">
+            <h2>Basic</h2>
+            <h3 class="month hide">$199.99</h3>
+            <h3>$19.99</h3>
+            <hr>
+            <h4>500 GB Storage</h4>
+            <hr>
+            <h4>2 Users Allowed</h4>
+            <hr>
+            <h4>Send up to 3 GB</h4>
+            <hr>
+            <button><a href="#">Learn More</a></button>
+        </div>
+        <div class="annual-prof">
+            <h2>Professional</h2>
+            <h3 class="month hide">$249.99</h3>
+            <h3>$24.99</h3>
+            <hr>
+            <h4>1 TB Storage</h4>
+            <hr>
+            <h4>5 Users Allowed</h4>
+            <hr>
+            <h4>Send up to 10 GB</h4>
+            <hr>
+            <button><a href="#">Learn More</a></button>
+        </div>
+        <div class="annual-master">
+            <h2>Master</h2>
+            <h3 class="month hide">$399.99</h3>
+            <h3>$39.99</h3>
+            <hr>
+            <h4>2 TB Storage</h4>
+            <hr>
+            <h4>10 Users Allowed</h4>
+            <hr>
+            <h4>Send up to 20 GB</h4>
+            <hr>
+            <button><a href="#">Learn More</a></button>
+        </div>
+    </section>
+
+    <footer>
+        <div class="attribution">
+            Challenge by
+            <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+              >Frontend Mentor</a
+            >. Coded by <a href="#">@infiniteltd</a>.
+          </div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
